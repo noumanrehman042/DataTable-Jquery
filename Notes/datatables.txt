@@ -1,0 +1,26 @@
+
+https://www.rubydoc.info/gems/jquery-datatables/1.10.18
+
+https://github.com/rweng/jquery-datatables-rails
+https://datatables.net/examples/styling/bootstrap4.html
+https://github.com/jbox-web/ajax-datatables-rails
+
+1) add gem:
+gem "jquery-datatables", "~> 1.10"
+
+
+2)  rails g jquery:datatables:install bootstrap4
+
+make sure that in application.js, datatables should come after jquery like:
+//= require jquery
+//= require popper
+//= require bootstrap
+//= require datatables
+
+
+********************
+gyrocode is a plugin for the jquery to add select feature on tables.
+Checkboxes is an extension for the jQuery DataTables library that provides universal solution for working with checkboxes in a table.
+
+https://www.gyrocode.com/projects/jquery-datatables-checkboxes/
+ 
